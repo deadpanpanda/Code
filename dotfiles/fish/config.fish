@@ -3,3 +3,5 @@ if status is-interactive
 end
 
 starship init fish | source
+export PATH="$PATH:/opt/nvim-linux64/bin"
+set -g fish_greeting ""
